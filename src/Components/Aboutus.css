@@ -1,0 +1,26 @@
+.aboutcontainer{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    height: 100vh;
+}
+
+.title{
+    height: 10px;
+    margin: 50px 0px 0px 50px;
+    font-size: 50px;
+}
+.imagecontainer{
+    height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 200px 0px 0px 200px;
+}
+
+.about{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 1000px;
+    inline-size: 500px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}

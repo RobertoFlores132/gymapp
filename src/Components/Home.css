@@ -1,0 +1,11 @@
+.front {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-image: url('../Images/calma-joven-mujer-caucasica-muscular-practicando-gimnasio-pesas-modelo-mujer-atletica-haciendo-ejercicios-fuerza-entrenando-parte-superior-e-inferior-cuerpo-bienestar-estilo-vida-saludable-culturismo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0px 0px 0px;
+    font-size: 40px;
+    height: 100vh;
+}

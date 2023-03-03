@@ -1,0 +1,22 @@
+.benefitdesc{
+    background-image: url('../Images/deportista-musculoso-entrenamiento-brazos-mancuernas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    font-size: 40px;
+    padding: 50px 0px 0px 30px;
+    height: 150vh;
+    color: white;
+}
+
+.list{
+    inline-size: 900px;
+    padding: 100px 0px 0px 0px;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.fa-solid {
+    font-size: 50px;
+}

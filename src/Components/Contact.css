@@ -1,0 +1,50 @@
+.contact{
+    padding: 40px 0px 0px 0px;
+    background-image: url('../Images/gente-forma-tiro-completo-entrenando-juntos-gimnasio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    text-align: center;
+}
+
+.contact h3{
+   color: white; 
+   font-size: 50px;
+   -webkit-text-stroke: 1px black; 
+}
+
+.form{
+    padding: 100px 0px 0px 0px;
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.form input{
+    border: 0px;
+    border-radius: 50px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form textarea{
+    border: 0px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact button{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    height: 70px;
+    width: 160px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #234AD1;
+    color: white;
+}
