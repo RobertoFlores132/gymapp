@@ -4,14 +4,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
+    height: 110vh;
     text-align: center;
 }
 
 .contact h3{
-   color: white; 
-   font-size: 50px;
-   -webkit-text-stroke: 1px black; 
+    color: white; 
+    font-size: 50px;
+    -webkit-text-stroke: 1px black; 
 }
 
 .form{
@@ -47,4 +47,59 @@
     border: 0px;
     background-color: #234AD1;
     color: white;
+}
+
+@media only screen and (max-width: 700px){
+    .contact{
+        padding: 5px 0px 0px 0px;
+        background-image: url('../Images/gente-forma-tiro-completo-entrenando-juntos-gimnasio.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .contact h3{
+        color: white; 
+        font-size: 40px;
+        -webkit-text-stroke: 1px black; 
+    }
+    
+    .form{
+        padding: 20px 0px 0px 0px;
+        color: white;
+        -webkit-text-stroke: 0.1px black;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .form input{
+        border: 0px;
+        border-radius: 50px;
+        height: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .form textarea{
+        border: 0px;
+        border-radius: 20px;
+        font-size: 25px;
+        text-align: center;
+        width: 270px;
+        height: 100px;
+    }
+    
+    .contact button{
+        text-align: center;
+        margin: 50px 0px 0px 0px;
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        border-radius: 30px;
+        border: 0px;
+        background-color: #234AD1;
+        color: white;
+    }
 }

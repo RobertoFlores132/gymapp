@@ -7,7 +7,7 @@ const Aboutus = () => {
         <div className='aboutcontainer'>
             <h2 className='title'>Conocenos</h2>
             <div className='imagecontainer'>
-                <img src={Profile} alt="" />
+                <img className='profile' src={Profile} alt="" />
             </div>
             <div className='about'>
                 <p>Somos un emprendimiento con 2 años en el mercado,

@@ -1,0 +1,144 @@
+.navbarcontainer{
+    position: fixed;
+    z-index: 100;
+    box-shadow: 5px 5px 10px #363636;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2349d1d1;
+}
+
+.fa-solid{
+    display: none;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    padding-right: 150px;
+}
+
+.navbar2{
+    display: none;
+}
+
+.navbar a:not(:last-child){
+    padding-right: 25px;
+}
+
+.logocontainer{ 
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    filter: invert();
+    margin: 0;
+    padding: 0px 0px 0px 150px;
+}
+
+.hamburger{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(180, 74, 180);
+}
+
+@media only screen and (max-width: 700px){
+    
+    .navbarcontainer{
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        box-shadow: none;
+        background-color: #2349d1b9;
+        flex-wrap: wrap;
+        height: 11.89vh;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        align-items: baseline;
+    }
+
+    .navbar{
+        display: none;
+    }
+   
+    .navbar2{
+        display: block;
+        color: white;
+        height: 100vh;
+        line-height: 100px;
+        background-color: #2349d1b9;
+        font-size: 18px;
+        padding: 40px 50.5px;
+    }
+
+    .navbar a:not(:last-child){
+        padding-right: 25px;
+    }
+
+    .logocontainer{
+        display: flex; 
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fa-solid{
+        display: flex;
+        padding: 30px 0px 0px 30px;
+    }
+    
+    .logo{
+        width: 90px;
+        height: 90px;
+        filter: invert();
+        padding: 0px 0px 0px 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a:visited{
+        color: white;
+    }
+    
+    a:hover{
+        color: rgb(180, 74, 180);
+    }
+
+    .hamburger{
+        display: block;
+        background-color: #2349d100;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+
+}
