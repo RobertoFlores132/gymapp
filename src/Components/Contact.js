@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import './Contact.css'
 
 const Contact = () => {
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -20,16 +21,45 @@ const Contact = () => {
   
     return (
       <form className='contact' ref={form} onSubmit={sendEmail}>
-            <h3>¡Contáctanos!</h3>
         <div className='form'>
+              <h3>¡Contáctanos!</h3>
                 <p>Nombre completo*</p>
-                <input className='name' type="text" name="user_name"/>
+                <input
+                  required
+                  minLength={7}
+                  maxLength={50}
+                  placeholder='Jhon Duan'
+                  autoComplete='none' 
+                  className='name' 
+                  type="text" 
+                  name="user_name"/>
                 <p>Correo*</p>
-                <input className='email' type="email" name="user_email"/>
+                <input
+                  required
+                  autoComplete='none' 
+                  className='email' 
+                  type="email" 
+                  placeholder='examle@example.com'
+                  name="user_email"/>
                 <p>Asunto*</p>
-                <input className='topic' type="text" />
+                <input
+                  required
+                  placeholder='Membresia' 
+                  autoComplete='none'
+                  className='topic' 
+                  type="text" 
+                  name='topic'/>
                 <p>Mensaje*</p>
-                <textarea className='message' name="message" cols="35" rows="5"/> 
+                <textarea 
+                  required
+                  maxLength={100}
+                  minLength={10}
+                  placeholder='Tu mensaje máximo 100 caracteres'
+                  autoComplete='none'
+                  className='message' 
+                  name="message" 
+                  cols="35" 
+                  rows="5"/> 
         </div>
         <button>Enviar</button>
       </form>

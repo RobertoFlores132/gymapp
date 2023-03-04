@@ -11,6 +11,7 @@
 .contact h3{
     color: white; 
     font-size: 50px;
+    padding-top: 80px;
     -webkit-text-stroke: 1px black; 
 }
 
@@ -60,7 +61,7 @@
         text-align: center;
     }
     
-    .contact h3{
+    .h3{
         color: white; 
         font-size: 40px;
         -webkit-text-stroke: 1px black; 
@@ -80,6 +81,7 @@
         height: 20px;
         font-size: 25px;
         text-align: center;
+        font-size: 20px;
     }
     
     .form textarea{
@@ -89,6 +91,7 @@
         text-align: center;
         width: 270px;
         height: 100px;
+        font-size: 20px;
     }
     
     .contact button{
